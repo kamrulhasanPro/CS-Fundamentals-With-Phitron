@@ -21,20 +21,31 @@ int main() {
 */
 
 // Variables
-/*
+
 int main() {
     int a;
-    long int b;
+    long long int b;
     float c;
     char d;
     
-    scanf("%d %ld %f %c", &a, &b, &c, &d);
+    scanf("%d %ld %f", &a, &b, &c);
+
+    // this a (enter) charecter problem
+    // scanf("%c", &d);
+
+    // solution ways
+    // scanf("%c%c", &d, &d); // first input take (enter)charecter and second is get the main Charecter
+    // scanf(" %c", &d); // empty space is auto track it's (enter) charecter
+    // scanf("\n%c", &d); // \n get a new line then input the main charecter
+    getchar(); // getchar take a enter or new line
+    scanf("%c", &d);
+
     
     printf("%d\n%ld\n%.2f\n%c\n", a, b, c, d);
       
     return 0;
 }
-*/
+
 
 
 // N Times
