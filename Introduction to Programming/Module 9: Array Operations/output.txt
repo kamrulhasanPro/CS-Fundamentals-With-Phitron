@@ -1,0 +1,3 @@
+SizeOutside: 20
+SizeInside: 20
+10 20 100 30 40 50 
