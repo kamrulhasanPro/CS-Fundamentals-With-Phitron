@@ -1,2 +1,3 @@
-This is a Primary Diagonal Matrix.
-It's scaller diagonal matrix.
+3 0 0 
+2 0 2 
+0 2 0 
